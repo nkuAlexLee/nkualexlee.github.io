@@ -55,7 +55,6 @@ jobs:
       - name: Install dependencies
         run: npm install -g serve
       - name: Download artifact
-        uses: actions/download-artifact@v2
         with:
           name: vue-app
           path: dist
